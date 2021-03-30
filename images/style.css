@@ -1,0 +1,126 @@
+		body {
+			background-color: #bedcfa;
+	}
+
+h1 {
+	color: #0e49b5;
+	font-family: fantasy;
+	font-size: 65px;
+	letter-spacing: 9px;
+	}
+
+h2 { 
+	color:#0e49b5;
+	font-family: fantasy;
+	font-size: 38px; 
+	letter-spacing: 4px;
+	text-justify: center;
+	}
+
+p { 
+	color: #F0F8FF;
+	font-size: 20px;
+	font-family: Verdana, sans-serif;
+	letter-spacing: 1px;
+	text-justify: center;
+ }
+
+ a{ 
+ 	text-decoration: none; 
+ 	color: #F0F8FF;
+ 	font-size: 20px;
+	font-family: Verdana, sans-serif;
+	letter-spacing: 2px;
+	text-justify: center;
+	font-weight: bold;
+	transition: color 0.3s ease;
+  }
+ a:hover {
+  	color: #000080;
+  	text-decoration: none;
+  }
+
+img{
+	width: 480px;
+	border-radius: 50%;
+	border: 2px solid blue;
+}
+
+ul:hover {
+	text-decoration: underline;
+}
+
+div{ 
+	background: #87CEFA;
+	padding: 60px;
+	border-radius: 3px;
+	margin: 60px auto;
+	box-shadow: 2px 2px 8px rgb(30,144,255,0.8);
+	width: 800px;
+}
+
+@media (max-width: 800px) {
+	body {
+		width: 600px;
+	}
+
+}
+
+@media (max-width: 400px) {
+	body {
+		width: 200px; 
+	}
+}
+
+/*Custom design with class*/
+.container {
+	width: auto;
+	margin: 80px auto;
+}
+
+.card-blue {
+	text-align: center;
+}
+
+.btn-blue {
+	background-color: #0e49b5;
+	color: #F5F5F5;
+	padding: 12px 18px;
+	box-shadow: 2px 2px 8px rgb(30,144,255,0.8);
+	border-radius: 3px;
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+
+.list-inline i {
+	font-size: 60px;
+	color: #F0F8FF;
+}
+
+.list-inline i:hover {
+	color: #000080;
+}
+
+#intro p {
+	margin-bottom: 45px;
+}
+
+#music p {
+	margin-bottom: 45px;
+}
+
+#sports p {
+	margin-bottom: 45px;
+}
+
+#media h2 {
+	margin-bottom: 45px;
+}
